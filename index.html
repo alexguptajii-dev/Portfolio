@@ -1,0 +1,1370 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anshu Kumar | Computer Science Student & Aspiring Software Developer</title>
+  <meta name="description" content="Personal portfolio of Anshu Kumar, a passionate Computer Science student and aspiring software developer skilled in C++, JavaScript, Python, DSA, and Web Development." />
+  <meta name="keywords" content="Anshu Kumar, Portfolio, Computer Science, Software Developer, C++, JavaScript, Python, Web Development, Lovely Professional University" />
+  <meta name="author" content="Anshu Kumar" />
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Anshu Kumar | Portfolio" />
+  <meta property="og:description" content="Computer Science Student | Aspiring Software Developer" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-dark text-slate antialiased selection:bg-cyan selection:text-white">
+  <!-- Background Glow & Particles Container -->
+  <div class="bg-effects" aria-hidden="true">
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    <div class="glow-orb orb-3"></div>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <!-- Scroll Progress Indicator -->
+  <div id="scroll-progress" class="scroll-progress-bar"></div>
+
+  <!-- Navigation Bar -->
+  <header id="navbar" class="navbar-fixed">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo">
+        <span class="logo-bracket">&lt;</span>
+        <span class="logo-name">Anshu</span>
+        <span class="logo-dot">.</span>
+        <span class="logo-dev">dev</span>
+        <span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link"><i class="fa-regular fa-user"></i> About</a></li>
+          <li><a href="#story" class="nav-link"><i class="fa-solid fa-route"></i> Story</a></li>
+          <li><a href="#skills" class="nav-link"><i class="fa-solid fa-code"></i> Skills</a></li>
+          <li><a href="#projects" class="nav-link"><i class="fa-solid fa-laptop-code"></i> Projects</a></li>
+          <li><a href="#certifications" class="nav-link"><i class="fa-solid fa-award"></i> Certifications</a></li>
+          <li><a href="#achievements" class="nav-link"><i class="fa-solid fa-trophy"></i> Achievements</a></li>
+          <li><a href="#education" class="nav-link"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+          <li><a href="#resume" class="nav-link"><i class="fa-solid fa-file-lines"></i> Resume</a></li>
+          <li><a href="#contact" class="nav-link btn-nav-cta"><i class="fa-solid fa-paper-plane"></i> Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions (Hamburger) -->
+      <div class="nav-actions">
+        <button id="mobile-menu-btn" class="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Navigation -->
+    <div id="mobile-drawer" class="mobile-drawer">
+      <ul class="mobile-nav-list">
+        <li><a href="#hero" class="mobile-nav-link"><i class="fa-solid fa-house"></i> Home</a></li>
+        <li><a href="#about" class="mobile-nav-link"><i class="fa-regular fa-user"></i> About Me</a></li>
+        <li><a href="#story" class="mobile-nav-link"><i class="fa-solid fa-route"></i> Tech Story</a></li>
+        <li><a href="#skills" class="mobile-nav-link"><i class="fa-solid fa-code"></i> Skills</a></li>
+        <li><a href="#projects" class="mobile-nav-link"><i class="fa-solid fa-laptop-code"></i> Projects</a></li>
+        <li><a href="#certifications" class="mobile-nav-link"><i class="fa-solid fa-award"></i> Certifications</a></li>
+        <li><a href="#achievements" class="mobile-nav-link"><i class="fa-solid fa-trophy"></i> Achievements</a></li>
+        <li><a href="#education" class="mobile-nav-link"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+        <li><a href="#resume" class="mobile-nav-link"><i class="fa-solid fa-file-lines"></i> Resume / CV</a></li>
+        <li><a href="#contact" class="mobile-nav-link cta"><i class="fa-solid fa-envelope"></i> Contact Me</a></li>
+      </ul>
+      <div class="mobile-socials">
+        <a href="https://www.linkedin.com/in/anshugupta12" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/alexguptajii-dev" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:alexguptajii@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="tel:+916200309638" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== 1. HERO SECTION ==================== -->
+    <section id="hero" class="hero-section section-padding">
+      <div class="container hero-container">
+        <div class="hero-content reveal-fade-up">
+          <div class="status-pill">
+            <span class="pulse-indicator"></span>
+            <span class="status-text">Available for Software Opportunities & Internships</span>
+          </div>
+          <h1 class="hero-title">
+            <span class="greeting">Hello, I'm</span>
+            <span class="hero-name gradient-text">Anshu Kumar</span>
+          </h1>
+          <h2 class="hero-tagline">
+            <span class="typing-text">Computer Science Student | Aspiring Software Developer</span>
+          </h2>
+          <p class="hero-intro">
+            A passionate CS undergraduate eager to craft robust software, solve algorithmic challenges, and engineer impactful digital solutions through modern web technologies and clean code.
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="hero-ctas">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <i class="fa-solid fa-arrow-down"></i>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Contact Me</span>
+              <i class="fa-solid fa-paper-plane"></i>
+            </a>
+            <a href="#story" class="btn btn-ghost">
+              <span>My Story</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Social Quick Links -->
+          <div class="hero-socials-card">
+            <span class="social-label">Connect with me:</span>
+            <div class="social-pills-list">
+              <a href="https://www.linkedin.com/in/anshugupta12" target="_blank" rel="noopener noreferrer" class="social-pill linkedin" title="Connect on LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://github.com/alexguptajii-dev" target="_blank" rel="noopener noreferrer" class="social-pill github" title="Explore GitHub Repos">
+                <i class="fa-brands fa-github"></i>
+                <span>alexguptajii-dev</span>
+              </a>
+              <a href="mailto:alexguptajii@gmail.com" class="social-pill email" title="Send an Email">
+                <i class="fa-solid fa-envelope"></i>
+                <span>alexguptajii@gmail.com</span>
+              </a>
+              <a href="tel:+916200309638" class="social-pill phone" title="Call directly">
+                <i class="fa-solid fa-phone"></i>
+                <span>+91-6200309638</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual / Profile Photo -->
+        <div class="hero-visual reveal-fade-left">
+          <div class="hero-photo-wrapper">
+            <div class="glow-backdrop"></div>
+            <div class="photo-card glass-card">
+              <div class="photo-frame-header">
+                <div class="window-controls">
+                  <span class="control-dot close"></span>
+                  <span class="control-dot min"></span>
+                  <span class="control-dot max"></span>
+                </div>
+                <div class="photo-header-tag"><i class="fa-solid fa-user-check text-cyan"></i> anshu_kumar.jpg</div>
+                <div class="badge-tag">Developer</div>
+              </div>
+              <div class="photo-inner">
+                <img src="assets/profile.jpg" alt="Anshu Kumar - Computer Science Student & Aspiring Software Developer" class="hero-profile-img" />
+                <div class="photo-overlay-gradient"></div>
+              </div>
+              <div class="photo-caption-bar">
+                <div class="caption-name-tag">
+                  <span class="caption-dot"></span>
+                  <span class="caption-title">Anshu Kumar</span>
+                </div>
+                <span class="caption-badge">B.Tech CSE (LPU)</span>
+              </div>
+            </div>
+
+            <!-- Floating Tech & Achievement Badges -->
+            <div class="floating-tech-badge badge-top-left">
+              <i class="fa-solid fa-code text-cyan"></i>
+              <span>C++ & DSA</span>
+            </div>
+            <div class="floating-tech-badge badge-top-right">
+              <i class="fa-brands fa-js text-yellow"></i>
+              <span>JavaScript</span>
+            </div>
+            <div class="floating-tech-badge badge-bottom-right">
+              <i class="fa-solid fa-graduation-cap text-purple"></i>
+              <span>CGPA: 8.33</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 2. ABOUT ME ==================== -->
+    <section id="about" class="about-section section-padding">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-badge"><i class="fa-regular fa-user"></i> Introduction</span>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <p class="section-subtitle">Get to know my background, core focus areas, and what drives my passion.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Text Content Card -->
+          <div class="about-card glass-card reveal-fade-right">
+            <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+            <div class="about-paragraphs">
+              <p class="about-text leading-relaxed">
+                Hi, I'm <strong class="text-white">Anshu Kumar</strong>, a passionate and motivated Computer Science student who enjoys coding, problem-solving, and building practical projects. I'm constantly exploring new technologies and working on improving my programming skills.
+              </p>
+              <p class="about-text leading-relaxed mt-4">
+                I have experience with <span class="highlight-pill">C++</span>, <span class="highlight-pill">HTML</span>, <span class="highlight-pill">CSS</span>, and <span class="highlight-pill">JavaScript</span>, and I'm currently focusing on strengthening my knowledge of <span class="highlight-cyan font-semibold">Data Structures and Algorithms</span>. I enjoy solving coding problems and applying what I learn to real-world projects.
+              </p>
+            </div>
+
+            <div class="about-meta-grid">
+              <div class="meta-item">
+                <div class="meta-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div>
+                  <span class="meta-title">Location</span>
+                  <span class="meta-value">Punjab, India</span>
+                </div>
+              </div>
+              <div class="meta-item">
+                <div class="meta-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                <div>
+                  <span class="meta-title">Degree</span>
+                  <span class="meta-value">B.Tech in CSE (LPU)</span>
+                </div>
+              </div>
+              <div class="meta-item">
+                <div class="meta-icon"><i class="fa-solid fa-bullseye"></i></div>
+                <div>
+                  <span class="meta-title">Current Focus</span>
+                  <span class="meta-value">DSA & Full-Stack Dev</span>
+                </div>
+              </div>
+              <div class="meta-item">
+                <div class="meta-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div>
+                  <span class="meta-title">Email</span>
+                  <span class="meta-value">alexguptajii@gmail.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Feature Cards / Highlights -->
+          <div class="about-highlights reveal-fade-left">
+            <div class="highlight-card glass-card">
+              <div class="hl-icon-box bg-cyan-glow">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+              <div class="hl-info">
+                <h3>Problem Solver</h3>
+                <p>Consistent practice with 40+ solved algorithmic challenges to sharpen analytical reasoning and step-by-step debugging.</p>
+              </div>
+            </div>
+
+            <div class="highlight-card glass-card">
+              <div class="hl-icon-box bg-purple-glow">
+                <i class="fa-solid fa-layer-group"></i>
+              </div>
+              <div class="hl-info">
+                <h3>Practical Project Builder</h3>
+                <p>Turning abstract concepts into functioning web apps, such as interactive quiz systems and collaborative projects.</p>
+              </div>
+            </div>
+
+            <div class="highlight-card glass-card">
+              <div class="hl-icon-box bg-teal-glow">
+                <i class="fa-solid fa-seedling"></i>
+              </div>
+              <div class="hl-info">
+                <h3>Continuous Learner</h3>
+                <p>Proactively certified across C++, Python, AI foundations, Figma design thinking, and modern cybersecurity practices.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 3. MY TECH STORY ==================== -->
+    <section id="story" class="story-section section-padding">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-badge"><i class="fa-solid fa-route"></i> Timeline</span>
+          <h2 class="section-title">My Tech <span class="gradient-text">Story</span></h2>
+          <p class="section-subtitle">A narrative of how curiosity turned into code, logic, and functional software.</p>
+        </div>
+
+        <div class="story-timeline">
+          <div class="timeline-line" aria-hidden="true"></div>
+
+          <!-- Milestone 1 -->
+          <div class="story-milestone reveal-fade-right">
+            <div class="milestone-marker">
+              <div class="marker-dot"></div>
+              <div class="marker-icon"><i class="fa-solid fa-lightbulb"></i></div>
+            </div>
+            <div class="milestone-card glass-card">
+              <div class="milestone-tag">The Beginning • Curiosity & Fundamentals</div>
+              <h3 class="milestone-title">Spark of Curiosity & The First Lines of Code</h3>
+              <p class="milestone-content">
+                My journey into technology started with curiosity about how software works and how simple lines of code can solve real problems. As I started learning programming, I became interested in understanding how applications are built from scratch.
+              </p>
+            </div>
+          </div>
+
+          <!-- Milestone 2 -->
+          <div class="story-milestone reveal-fade-left">
+            <div class="milestone-marker">
+              <div class="marker-dot"></div>
+              <div class="marker-icon"><i class="fa-solid fa-cubes-stacked"></i></div>
+            </div>
+            <div class="milestone-card glass-card">
+              <div class="milestone-tag">Growth • Algorithms & Web</div>
+              <h3 class="milestone-title">Structured Learning & Logical Thinking</h3>
+              <p class="milestone-content">
+                I began with the fundamentals of programming and gradually moved toward Data Structures, Algorithms, and Web Development. Along the way, coding challenges helped me improve my logical thinking, debugging skills, and ability to approach problems step by step.
+              </p>
+            </div>
+          </div>
+
+          <!-- Milestone 3 -->
+          <div class="story-milestone reveal-fade-right">
+            <div class="milestone-marker">
+              <div class="marker-dot"></div>
+              <div class="marker-icon"><i class="fa-solid fa-rocket"></i></div>
+            </div>
+            <div class="milestone-card glass-card">
+              <div class="milestone-tag">Creation • Practical Applications</div>
+              <h3 class="milestone-title">Turning Concepts Into Working Projects</h3>
+              <p class="milestone-content">
+                Building projects has been an important part of my learning journey. Projects like my Online Quiz Application gave me the opportunity to turn concepts into a working application and understand how HTML, CSS, and JavaScript work together.
+              </p>
+            </div>
+          </div>
+
+          <!-- Milestone 4 -->
+          <div class="story-milestone reveal-fade-left">
+            <div class="milestone-marker">
+              <div class="marker-dot"></div>
+              <div class="marker-icon"><i class="fa-solid fa-infinity"></i></div>
+            </div>
+            <div class="milestone-card glass-card">
+              <div class="milestone-tag">Vision • Future Aspirations</div>
+              <h3 class="milestone-title">Continuous Evolution & Impactful Solutions</h3>
+              <p class="milestone-content">
+                I believe technology is a continuous learning journey. Every problem I solve and every project I build helps me become a better developer. My goal is to keep learning, build meaningful projects, and grow into a skilled software developer who can create useful and impactful solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 4. SKILLS SECTION ==================== -->
+    <section id="skills" class="skills-section section-padding">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-badge"><i class="fa-solid fa-code"></i> Tech Stack</span>
+          <h2 class="section-title">Technical & Soft <span class="gradient-text">Skills</span></h2>
+          <p class="section-subtitle">Categorized breakdown of programming languages, libraries, tools, and interpersonal strengths.</p>
+        </div>
+
+        <!-- Category Filter Tabs -->
+        <div class="skill-filters reveal-fade-up">
+          <button class="filter-btn active" data-filter="all">All Skills</button>
+          <button class="filter-btn" data-filter="languages"><i class="fa-solid fa-code"></i> Languages</button>
+          <button class="filter-btn" data-filter="technologies"><i class="fa-solid fa-globe"></i> Technologies</button>
+          <button class="filter-btn" data-filter="tools"><i class="fa-solid fa-database"></i> Databases & Tools</button>
+          <button class="filter-btn" data-filter="soft-skills"><i class="fa-solid fa-users-gear"></i> Soft Skills</button>
+        </div>
+
+        <!-- Skills Grid Container -->
+        <div class="skills-grid" id="skills-grid">
+          <!-- Languages -->
+          <div class="skill-card glass-card" data-category="languages">
+            <div class="skill-icon-wrapper js-color">
+              <i class="fa-brands fa-js"></i>
+            </div>
+            <div class="skill-info">
+              <h4>JavaScript</h4>
+              <span class="skill-type">Language</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="width: 85%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card glass-card" data-category="languages">
+            <div class="skill-icon-wrapper c-color">
+              <span class="icon-text">C</span>
+            </div>
+            <div class="skill-info">
+              <h4>C</h4>
+              <span class="skill-type">Core Language</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="width: 80%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card glass-card" data-category="languages">
+            <div class="skill-icon-wrapper cpp-color">
+              <span class="icon-text">C++</span>
+            </div>
+            <div class="skill-info">
+              <h4>C++</h4>
+              <span class="skill-type">DSA & OOP</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="width: 90%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card glass-card" data-category="languages">
+            <div class="skill-icon-wrapper python-color">
+              <i class="fa-brands fa-python"></i>
+            </div>
+            <div class="skill-info">
+              <h4>Python</h4>
+              <span class="skill-type">Language</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="width: 78%;"></div>
+            </div>
+          </div>
+
+          <!-- Technologies -->
+          <div class="skill-card glass-card" data-category="technologies">
+            <div class="skill-icon-wrapper html-color">
+              <i class="fa-brands fa-html5"></i>
+            </div>
+            <div class="skill-info">
+              <h4>HTML</h4>
+              <span class="skill-type">Markup / Semantic</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="width: 92%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card glass-card" data-category="technologies">
+            <div class="skill-icon-wrapper css-color">
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <div class="skill-info">
+              <h4>CSS</h4>
+              <span class="skill-type">Styling / Layouts</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="width: 88%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card glass-card" data-category="technologies">
+            <div class="skill-icon-wrapper tailwind-color">
+              <i class="fa-solid fa-wind"></i>
+            </div>
+            <div class="skill-info">
+              <h4>Tailwind CSS</h4>
+              <span class="skill-type">CSS Framework</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="width: 82%;"></div>
+            </div>
+          </div>
+
+          <!-- Databases / Tools -->
+          <div class="skill-card glass-card" data-category="tools">
+            <div class="skill-icon-wrapper mysql-color">
+              <i class="fa-solid fa-database"></i>
+            </div>
+            <div class="skill-info">
+              <h4>MySQL</h4>
+              <span class="skill-type">Relational Database</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="width: 75%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card glass-card" data-category="tools">
+            <div class="skill-icon-wrapper mongo-color">
+              <i class="fa-solid fa-server"></i>
+            </div>
+            <div class="skill-info">
+              <h4>MongoDB</h4>
+              <span class="skill-type">NoSQL Database</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="width: 72%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card glass-card" data-category="tools">
+            <div class="skill-icon-wrapper git-color">
+              <i class="fa-brands fa-git-alt"></i>
+            </div>
+            <div class="skill-info">
+              <h4>Git</h4>
+              <span class="skill-type">Version Control</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="width: 85%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card glass-card" data-category="tools">
+            <div class="skill-icon-wrapper github-color">
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <div class="skill-info">
+              <h4>GitHub</h4>
+              <span class="skill-type">Collaboration</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="width: 86%;"></div>
+            </div>
+          </div>
+
+          <!-- Soft Skills -->
+          <div class="skill-card glass-card" data-category="soft-skills">
+            <div class="skill-icon-wrapper soft-color-1">
+              <i class="fa-solid fa-puzzle-piece"></i>
+            </div>
+            <div class="skill-info">
+              <h4>Problem Solving</h4>
+              <span class="skill-type">Analytical Thinking</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="width: 90%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card glass-card" data-category="soft-skills">
+            <div class="skill-icon-wrapper soft-color-2">
+              <i class="fa-solid fa-clock"></i>
+            </div>
+            <div class="skill-info">
+              <h4>Time Management</h4>
+              <span class="skill-type">Productivity</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="width: 88%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card glass-card" data-category="soft-skills">
+            <div class="skill-icon-wrapper soft-color-3">
+              <i class="fa-solid fa-shuffle"></i>
+            </div>
+            <div class="skill-info">
+              <h4>Adaptability</h4>
+              <span class="skill-type">Agile Learning</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="width: 92%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 5. PROJECTS SECTION ==================== -->
+    <section id="projects" class="projects-section section-padding">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-badge"><i class="fa-solid fa-laptop-code"></i> Portfolio</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtitle">Real-world applications engineered with modular structure, responsive design, and clean logic.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Featured Project Card: Online Quiz Application -->
+          <div class="project-card glass-card reveal-fade-up">
+            <div class="project-banner">
+              <div class="banner-badge"><i class="fa-solid fa-star text-yellow"></i> Featured Project</div>
+              <div class="banner-dates"><i class="fa-regular fa-calendar"></i> Dec 2025 – Aug 2026</div>
+              <div class="project-mockup-preview">
+                <div class="mockup-screen">
+                  <div class="mockup-header">
+                    <span class="mock-dot red"></span>
+                    <span class="mock-dot yellow"></span>
+                    <span class="mock-dot green"></span>
+                    <span class="mock-address">quiz-app.anshu.dev</span>
+                  </div>
+                  <div class="mockup-content">
+                    <div class="mock-badge">Subject: Computer Science & Programming</div>
+                    <div class="mock-q">Q3: Which data structure operates on a LIFO principle?</div>
+                    <div class="mock-options">
+                      <div class="mock-opt">A) Queue</div>
+                      <div class="mock-opt selected">B) Stack <i class="fa-solid fa-check text-cyan"></i></div>
+                      <div class="mock-opt">C) Array</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-details">
+              <div class="project-title-row">
+                <h3 class="project-title">Online Quiz Application</h3>
+                <span class="project-timeline-tag">Dec 2025 – Aug 2026</span>
+              </div>
+
+              <!-- Tech stack badges -->
+              <div class="project-tags">
+                <span class="tech-tag tag-html"><i class="fa-brands fa-html5"></i> HTML</span>
+                <span class="tech-tag tag-css"><i class="fa-brands fa-css3-alt"></i> CSS</span>
+                <span class="tech-tag tag-js"><i class="fa-brands fa-js"></i> JavaScript</span>
+                <span class="tech-tag tag-dsa"><i class="fa-solid fa-diagram-project"></i> Data Structures</span>
+              </div>
+
+              <!-- Bullet descriptions from prompt -->
+              <ul class="project-bullets">
+                <li><i class="fa-solid fa-circle-check text-cyan"></i> Developed an interactive quiz application with 50+ multiple-choice questions across different subjects.</li>
+                <li><i class="fa-solid fa-circle-check text-cyan"></i> Implemented automatic score calculation based on the user's selected answers in real time.</li>
+                <li><i class="fa-solid fa-circle-check text-cyan"></i> Added question navigation and a final result section displaying the score and detailed answer summary.</li>
+                <li><i class="fa-solid fa-circle-check text-cyan"></i> Organized questions using arrays and basic data structures for efficient storage and management.</li>
+                <li><i class="fa-solid fa-circle-check text-cyan"></i> Built a clean, user-friendly interface using HTML and modern responsive CSS.</li>
+              </ul>
+
+              <!-- Action buttons -->
+              <div class="project-actions">
+                <a href="https://github.com/alexguptajii-dev" target="_blank" rel="noopener noreferrer" class="btn btn-outline-cyan">
+                  <i class="fa-brands fa-github"></i> View GitHub Repo
+                </a>
+                <button id="open-quiz-demo-btn" class="btn btn-primary">
+                  <i class="fa-solid fa-play"></i> Try Interactive Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 6. CERTIFICATIONS & TRAINING ==================== -->
+    <section id="certifications" class="certifications-section section-padding">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-badge"><i class="fa-solid fa-award"></i> Professional Growth</span>
+          <h2 class="section-title">Certifications & <span class="gradient-text">Training</span></h2>
+          <p class="section-subtitle">Verified courses, university trainings, and technical accreditations.</p>
+        </div>
+
+        <div class="certifications-grid">
+          <!-- Cert 1 -->
+          <div class="cert-card glass-card reveal-fade-up">
+            <div class="cert-header">
+              <div class="cert-icon-box bg-purple-glow">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <span class="cert-date"><i class="fa-regular fa-calendar"></i> Jan 2025</span>
+            </div>
+            <h3 class="cert-title">C++ Programming</h3>
+            <div class="cert-issuer"><i class="fa-solid fa-building-columns"></i> Saylor Academy</div>
+            <p class="cert-desc">Mastery of object-oriented programming, memory management, pointers, and algorithmic logic in modern C++.</p>
+            <div class="cert-badge-tag"><i class="fa-solid fa-certificate"></i> Verified Certificate</div>
+          </div>
+
+          <!-- Cert 2 -->
+          <div class="cert-card glass-card reveal-fade-up">
+            <div class="cert-header">
+              <div class="cert-icon-box bg-cyan-glow">
+                <i class="fa-brands fa-figma"></i>
+              </div>
+              <span class="cert-date"><i class="fa-regular fa-calendar"></i> Jun–Jul 2025</span>
+            </div>
+            <h3 class="cert-title">Think Design Prototype: Design Thinking & Figma</h3>
+            <div class="cert-issuer"><i class="fa-solid fa-university"></i> Lovely Professional University</div>
+            <p class="cert-desc">Intensive summer training in user-centric design principles, rapid wireframing, UI/UX prototyping, and component systems in Figma.</p>
+            <div class="cert-badge-tag"><i class="fa-solid fa-certificate"></i> University Training</div>
+          </div>
+
+          <!-- Cert 3 -->
+          <div class="cert-card glass-card reveal-fade-up">
+            <div class="cert-header">
+              <div class="cert-icon-box bg-teal-glow">
+                <i class="fa-solid fa-clock"></i>
+              </div>
+              <span class="cert-date"><i class="fa-regular fa-calendar"></i> Oct 2025</span>
+            </div>
+            <h3 class="cert-title">Time Management</h3>
+            <div class="cert-issuer"><i class="fa-solid fa-building-columns"></i> TechVeda</div>
+            <p class="cert-desc">Techniques for project prioritization, agile goal tracking, milestone planning, and engineering productivity.</p>
+            <div class="cert-badge-tag"><i class="fa-solid fa-certificate"></i> Professional Development</div>
+          </div>
+
+          <!-- Cert 4 -->
+          <div class="cert-card glass-card reveal-fade-up">
+            <div class="cert-header">
+              <div class="cert-icon-box bg-red-glow">
+                <i class="fa-solid fa-shield-halved"></i>
+              </div>
+              <span class="cert-date"><i class="fa-regular fa-calendar"></i> Apr 2026</span>
+            </div>
+            <h3 class="cert-title">Cyber Security</h3>
+            <div class="cert-issuer"><i class="fa-solid fa-building-columns"></i> Saylor Academy</div>
+            <p class="cert-desc">Core security fundamentals, network defense protocols, vulnerability assessment, cryptography, and application security best practices.</p>
+            <div class="cert-badge-tag"><i class="fa-solid fa-certificate"></i> Verified Certificate</div>
+          </div>
+
+          <!-- Cert 5 -->
+          <div class="cert-card glass-card reveal-fade-up">
+            <div class="cert-header">
+              <div class="cert-icon-box bg-blue-glow">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+              <span class="cert-date"><i class="fa-regular fa-calendar"></i> Feb 2026</span>
+            </div>
+            <h3 class="cert-title">Building with Artificial Intelligence</h3>
+            <div class="cert-issuer"><i class="fa-solid fa-laptop-code"></i> Infosys Springboard</div>
+            <p class="cert-desc">Practical overview of AI models, neural networks, machine learning principles, and modern AI application development.</p>
+            <div class="cert-badge-tag"><i class="fa-solid fa-certificate"></i> Infosys Certification</div>
+          </div>
+
+          <!-- Cert 6 -->
+          <div class="cert-card glass-card reveal-fade-up">
+            <div class="cert-header">
+              <div class="cert-icon-box bg-purple-glow">
+                <i class="fa-solid fa-terminal"></i>
+              </div>
+              <span class="cert-date"><i class="fa-regular fa-calendar"></i> May 2026</span>
+            </div>
+            <h3 class="cert-title">Computer Programming Certification</h3>
+            <div class="cert-issuer"><i class="fa-solid fa-code"></i> Neo Colab</div>
+            <p class="cert-desc">Hands-on assessment and certification in advanced problem solving, syntax precision, and algorithmic optimization.</p>
+            <div class="cert-badge-tag"><i class="fa-solid fa-certificate"></i> Coding Credential</div>
+          </div>
+
+          <!-- Cert 7 -->
+          <div class="cert-card glass-card reveal-fade-up">
+            <div class="cert-header">
+              <div class="cert-icon-box bg-yellow-glow">
+                <i class="fa-brands fa-python"></i>
+              </div>
+              <span class="cert-date"><i class="fa-regular fa-calendar"></i> Aug 2026</span>
+            </div>
+            <h3 class="cert-title">Programming Fundamentals using Python (Part 1 & 2)</h3>
+            <div class="cert-issuer"><i class="fa-solid fa-laptop-code"></i> Infosys</div>
+            <p class="cert-desc">Comprehensive two-part certification covering foundational Python syntax, data structures, OOP principles, and scripting modules.</p>
+            <div class="cert-badge-tag"><i class="fa-solid fa-certificate"></i> Dual Part Certification</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 7. ACHIEVEMENTS ==================== -->
+    <section id="achievements" class="achievements-section section-padding">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-badge"><i class="fa-solid fa-trophy"></i> Milestones</span>
+          <h2 class="section-title">Key <span class="gradient-text">Achievements</span></h2>
+          <p class="section-subtitle">Measurable progress and notable accomplishments throughout my academic and coding journey.</p>
+        </div>
+
+        <!-- Animated Stat Counters -->
+        <div class="stats-grid reveal-fade-up">
+          <div class="stat-counter-card glass-card">
+            <div class="stat-icon"><i class="fa-solid fa-code-commit text-cyan"></i></div>
+            <div class="stat-number-wrap">
+              <span class="stat-number" data-target="40">0</span><span class="stat-plus">+</span>
+            </div>
+            <div class="stat-label">Coding Problems Solved</div>
+            <p class="stat-subtext">Across competitive coding platforms</p>
+          </div>
+
+          <div class="stat-counter-card glass-card">
+            <div class="stat-icon"><i class="fa-solid fa-star text-yellow"></i></div>
+            <div class="stat-number-wrap">
+              <span class="stat-number" data-target="8.33" data-decimals="2">0.00</span>
+            </div>
+            <div class="stat-label">Current CGPA (LPU)</div>
+            <p class="stat-subtext">B.Tech Computer Science & Engg</p>
+          </div>
+
+          <div class="stat-counter-card glass-card">
+            <div class="stat-icon"><i class="fa-solid fa-certificate text-purple"></i></div>
+            <div class="stat-number-wrap">
+              <span class="stat-number" data-target="7">0</span><span class="stat-plus">+</span>
+            </div>
+            <div class="stat-label">Certifications Earned</div>
+            <p class="stat-subtext">Verified technical accreditations</p>
+          </div>
+
+          <div class="stat-counter-card glass-card">
+            <div class="stat-icon"><i class="fa-solid fa-fire text-red"></i></div>
+            <div class="stat-number-wrap">
+              <span class="stat-number" data-target="100">0</span><span class="stat-plus">%</span>
+            </div>
+            <div class="stat-label">Dedication & Passion</div>
+            <p class="stat-subtext">Committed to continuous growth</p>
+          </div>
+        </div>
+
+        <!-- Achievements Highlight List Cards -->
+        <div class="achievements-list-grid">
+          <div class="achievement-item glass-card reveal-fade-up">
+            <div class="ach-icon-circle"><i class="fa-solid fa-code"></i></div>
+            <div class="ach-text">
+              <h4>Solved 40+ Programming Problems</h4>
+              <p>Maintained consistent regular practice on online coding platforms, tackling problems spanning arrays, strings, searching, and algorithmic logic.</p>
+            </div>
+          </div>
+
+          <div class="achievement-item glass-card reveal-fade-up">
+            <div class="ach-icon-circle"><i class="fa-solid fa-bug-slash"></i></div>
+            <div class="ach-text">
+              <h4>Enhanced Problem-Solving & Debugging</h4>
+              <p>Sharpened analytical debugging, code tracing, and step-by-step problem deconstruction through consistent coding challenges.</p>
+            </div>
+          </div>
+
+          <div class="achievement-item glass-card reveal-fade-up">
+            <div class="ach-icon-circle"><i class="fa-solid fa-users"></i></div>
+            <div class="ach-text">
+              <h4>Workshops & Coding Contests</h4>
+              <p>Actively participated in competitive technical workshops, university coding contests, and collaborative peer hackathons at LPU.</p>
+            </div>
+          </div>
+
+          <div class="achievement-item glass-card reveal-fade-up">
+            <div class="ach-icon-circle"><i class="fa-solid fa-hands-holding-circle"></i></div>
+            <div class="ach-text">
+              <h4>Community Development Project</h4>
+              <p>Successfully completed and presented a Community Development Project aimed at creating meaningful local social impact.</p>
+            </div>
+          </div>
+
+          <div class="achievement-item glass-card reveal-fade-up">
+            <div class="ach-icon-circle"><i class="fa-solid fa-microchip"></i></div>
+            <div class="ach-text">
+              <h4>Technical Project (ECE249) at LPU</h4>
+              <p>Collaborated and delivered a hands-on technical project for the ECE249 curriculum at Lovely Professional University.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 8. EDUCATION ==================== -->
+    <section id="education" class="education-section section-padding">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-badge"><i class="fa-solid fa-graduation-cap"></i> Academic Journey</span>
+          <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+          <p class="section-subtitle">Academic foundations and credentials that power my technical understanding.</p>
+        </div>
+
+        <div class="education-timeline">
+          <!-- Edu 1: LPU -->
+          <div class="edu-card glass-card reveal-fade-up">
+            <div class="edu-header">
+              <div class="edu-institution-box">
+                <i class="fa-solid fa-building-columns text-cyan"></i>
+                <div>
+                  <h3 class="edu-degree">B.Tech, Computer Science and Engineering</h3>
+                  <span class="edu-school">Lovely Professional University, Phagwara, Punjab</span>
+                </div>
+              </div>
+              <div class="edu-badge-score">
+                <span class="score-label">CGPA</span>
+                <span class="score-val">8.33</span>
+              </div>
+            </div>
+            <div class="edu-meta-row">
+              <span class="edu-period"><i class="fa-regular fa-calendar"></i> Aug 2025 – Present</span>
+              <span class="edu-status status-active"><i class="fa-solid fa-circle-dot"></i> Currently Pursuing</span>
+            </div>
+            <p class="edu-summary">
+              Focusing on Data Structures & Algorithms, Object-Oriented Programming (C++), Web Technologies, Database Systems, and Software Engineering practices.
+            </p>
+          </div>
+
+          <!-- Edu 2: HS Babhani -->
+          <div class="edu-card glass-card reveal-fade-up">
+            <div class="edu-header">
+              <div class="edu-institution-box">
+                <i class="fa-solid fa-school text-purple"></i>
+                <div>
+                  <h3 class="edu-degree">Higher Secondary Education (10+2)</h3>
+                  <span class="edu-school">HS Babhani, Sasaram, Bihar</span>
+                </div>
+              </div>
+              <div class="edu-badge-score">
+                <span class="score-label">Percentage</span>
+                <span class="score-val">72.1%</span>
+              </div>
+            </div>
+            <div class="edu-meta-row">
+              <span class="edu-period"><i class="fa-regular fa-calendar"></i> May 2023 – Mar 2025</span>
+              <span class="edu-status status-completed"><i class="fa-solid fa-check"></i> Completed</span>
+            </div>
+            <p class="edu-summary">
+              Studied core science and mathematics curriculum, fostering strong analytical reasoning and fundamental quantitative skills.
+            </p>
+          </div>
+
+          <!-- Edu 3: Oxford Convent School -->
+          <div class="edu-card glass-card reveal-fade-up">
+            <div class="edu-header">
+              <div class="edu-institution-box">
+                <i class="fa-solid fa-book-open text-teal"></i>
+                <div>
+                  <h3 class="edu-degree">Secondary Education (10th Standard)</h3>
+                  <span class="edu-school">Oxford Convent School, Sasaram, Bihar</span>
+                </div>
+              </div>
+              <div class="edu-badge-score">
+                <span class="score-label">Percentage</span>
+                <span class="score-val">75%</span>
+              </div>
+            </div>
+            <div class="edu-meta-row">
+              <span class="edu-period"><i class="fa-regular fa-calendar"></i> Jun 2022 – Mar 2023</span>
+              <span class="edu-status status-completed"><i class="fa-solid fa-check"></i> Completed</span>
+            </div>
+            <p class="edu-summary">
+              Completed foundational secondary schooling with strong academic performance in mathematics and science.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 9. CONTACT SECTION ==================== -->
+    <section id="contact" class="contact-section section-padding">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-badge"><i class="fa-solid fa-paper-plane"></i> Get In Touch</span>
+          <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+          <p class="section-subtitle">Have a project idea, internship opportunity, or question? Feel free to reach out directly!</p>
+        </div>
+
+        <div class="contact-hub-wrapper reveal-fade-up">
+          <div class="contact-info-card glass-card">
+            <div class="contact-card-header text-center">
+              <h3 class="contact-card-title">Direct Contact & Profiles</h3>
+              <p class="contact-card-subtitle">
+                I'm always open to discussing new opportunities, software projects, and creative collaborations.
+              </p>
+            </div>
+
+            <div class="contact-methods-grid">
+              <!-- Email -->
+              <div class="contact-item">
+                <div class="contact-icon bg-cyan-glow"><i class="fa-solid fa-envelope"></i></div>
+                <div class="contact-text-wrap">
+                  <span class="label">Email Address</span>
+                  <a href="mailto:alexguptajii@gmail.com" class="value link-hover">alexguptajii@gmail.com</a>
+                </div>
+                <button class="copy-btn" data-copy="alexguptajii@gmail.com" title="Copy Email" aria-label="Copy Email to clipboard">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+
+              <!-- Phone -->
+              <div class="contact-item">
+                <div class="contact-icon bg-purple-glow"><i class="fa-solid fa-phone"></i></div>
+                <div class="contact-text-wrap">
+                  <span class="label">Mobile Number</span>
+                  <a href="tel:+916200309638" class="value link-hover">+91-6200309638</a>
+                </div>
+                <button class="copy-btn" data-copy="+916200309638" title="Copy Phone Number" aria-label="Copy Phone to clipboard">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+
+              <!-- LinkedIn -->
+              <div class="contact-item">
+                <div class="contact-icon bg-blue-glow"><i class="fa-brands fa-linkedin-in"></i></div>
+                <div class="contact-text-wrap">
+                  <span class="label">LinkedIn Profile</span>
+                  <a href="https://www.linkedin.com/in/anshugupta12" target="_blank" rel="noopener noreferrer" class="value link-hover">
+                    linkedin.com/in/anshugupta12 <i class="fa-solid fa-arrow-up-right-from-square external-icon"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!-- GitHub -->
+              <div class="contact-item">
+                <div class="contact-icon bg-teal-glow"><i class="fa-brands fa-github"></i></div>
+                <div class="contact-text-wrap">
+                  <span class="label">GitHub Repository</span>
+                  <a href="https://github.com/alexguptajii-dev" target="_blank" rel="noopener noreferrer" class="value link-hover">
+                    github.com/alexguptajii-dev <i class="fa-solid fa-arrow-up-right-from-square external-icon"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Quick Status Callout -->
+            <div class="availability-callout">
+              <div class="avail-dot"></div>
+              <div>
+                <strong>Currently seeking summer internships</strong> and developer roles for 2026.
+              </div>
+            </div>
+
+            <!-- Quick Action Buttons -->
+            <div class="contact-hub-actions">
+              <a href="mailto:alexguptajii@gmail.com" class="btn btn-primary">
+                <i class="fa-solid fa-envelope"></i> Send Direct Email
+              </a>
+              <a href="https://www.linkedin.com/in/anshugupta12" target="_blank" rel="noopener noreferrer" class="btn btn-outline-cyan">
+                <i class="fa-brands fa-linkedin-in"></i> Connect on LinkedIn
+              </a>
+              <a href="https://github.com/alexguptajii-dev" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                <i class="fa-brands fa-github"></i> View GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 10. RESUME SECTION ==================== -->
+    <section id="resume" class="resume-section section-padding">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-badge"><i class="fa-solid fa-file-lines"></i> Curriculum Vitae</span>
+          <h2 class="section-title">My <span class="gradient-text">Resume</span></h2>
+          <p class="section-subtitle">Preview my complete academic background, technical competencies, and project history or download a copy.</p>
+        </div>
+
+        <!-- Resume Action Toolbar -->
+        <div class="resume-toolbar-container reveal-fade-up">
+          <div class="resume-actions-bar glass-card">
+            <div class="resume-bar-info">
+              <i class="fa-solid fa-file-pdf text-red"></i>
+              <div>
+                <span class="doc-title">Anshu_Kumar_Resume_2026.pdf</span>
+                <span class="doc-meta">Updated August 2026 • Computer Science & Engineering</span>
+              </div>
+            </div>
+            <div class="resume-bar-buttons">
+              <a href="assets/Anshu_Kumar_Resume.pdf" download="Anshu_Kumar_Resume.pdf" id="download-resume-btn" class="btn btn-primary">
+                <i class="fa-solid fa-download"></i>
+                <span>Download Resume (PDF)</span>
+              </a>
+              <button id="print-resume-btn" class="btn btn-outline-cyan">
+                <i class="fa-solid fa-print"></i>
+                <span>Print / Save PDF</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Printable / Interactive Resume Document Sheet -->
+        <div class="resume-sheet-container reveal-fade-up">
+          <div class="resume-paper" id="resume-printable-area">
+            <!-- Resume Header -->
+            <div class="res-header">
+              <div class="res-title-block">
+                <h1 class="res-name">ANSHU KUMAR</h1>
+                <p class="res-role">Computer Science Student &bull; Aspiring Software Developer</p>
+              </div>
+              <div class="res-contact-block">
+                <div class="res-contact-item"><i class="fa-solid fa-envelope"></i> <a href="mailto:alexguptajii@gmail.com">alexguptajii@gmail.com</a></div>
+                <div class="res-contact-item"><i class="fa-solid fa-phone"></i> +91-6200309638</div>
+                <div class="res-contact-item"><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/anshugupta12" target="_blank">linkedin.com/in/anshugupta12</a></div>
+                <div class="res-contact-item"><i class="fa-brands fa-github"></i> <a href="https://github.com/alexguptajii-dev" target="_blank">github.com/alexguptajii-dev</a></div>
+                <div class="res-contact-item"><i class="fa-solid fa-location-dot"></i> Punjab / Bihar, India</div>
+              </div>
+            </div>
+
+            <!-- Resume Summary -->
+            <div class="res-section">
+              <h2 class="res-section-heading">PROFESSIONAL SUMMARY</h2>
+              <div class="res-divider"></div>
+              <p class="res-text">
+                Passionate and motivated Computer Science undergraduate with hands-on experience in C++, JavaScript, Python, Data Structures & Algorithms, and modern Web Development. Adept at turning algorithmic concepts into practical projects, logical problem-solving, and building performant, user-centric software solutions.
+              </p>
+            </div>
+
+            <!-- Resume Education -->
+            <div class="res-section">
+              <h2 class="res-section-heading">EDUCATION</h2>
+              <div class="res-divider"></div>
+              
+              <div class="res-item">
+                <div class="res-item-header">
+                  <div>
+                    <h3 class="res-item-title">Lovely Professional University, Phagwara, Punjab</h3>
+                    <p class="res-item-sub">Bachelor of Technology (B.Tech) in Computer Science and Engineering</p>
+                  </div>
+                  <div class="res-item-meta">
+                    <span class="res-badge-cgpa">CGPA: 8.33</span>
+                    <span class="res-date">Aug 2025 – Present</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="res-item">
+                <div class="res-item-header">
+                  <div>
+                    <h3 class="res-item-title">HS Babhani, Sasaram, Bihar</h3>
+                    <p class="res-item-sub">Higher Secondary Education (10+2) — Science Stream</p>
+                  </div>
+                  <div class="res-item-meta">
+                    <span class="res-badge-score">72.1%</span>
+                    <span class="res-date">May 2023 – Mar 2025</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="res-item">
+                <div class="res-item-header">
+                  <div>
+                    <h3 class="res-item-title">Oxford Convent School, Sasaram, Bihar</h3>
+                    <p class="res-item-sub">Secondary Education (10th Standard)</p>
+                  </div>
+                  <div class="res-item-meta">
+                    <span class="res-badge-score">75.0%</span>
+                    <span class="res-date">Jun 2022 – Mar 2023</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Resume Technical Skills -->
+            <div class="res-section">
+              <h2 class="res-section-heading">TECHNICAL & PROFESSIONAL SKILLS</h2>
+              <div class="res-divider"></div>
+              <div class="res-skills-list">
+                <div class="res-skill-row">
+                  <span class="res-skill-label">Programming Languages:</span>
+                  <span class="res-skill-val">C++, JavaScript, Python, C</span>
+                </div>
+                <div class="res-skill-row">
+                  <span class="res-skill-label">Web Technologies:</span>
+                  <span class="res-skill-val">HTML5, CSS3, Tailwind CSS, Responsive Design, RESTful APIs</span>
+                </div>
+                <div class="res-skill-row">
+                  <span class="res-skill-label">Databases & Tools:</span>
+                  <span class="res-skill-val">MySQL, MongoDB, Git, GitHub, VS Code</span>
+                </div>
+                <div class="res-skill-row">
+                  <span class="res-skill-label">Core Concepts:</span>
+                  <span class="res-skill-val">Data Structures & Algorithms (DSA), Object-Oriented Programming (OOP), Debugging</span>
+                </div>
+                <div class="res-skill-row">
+                  <span class="res-skill-label">Soft Skills:</span>
+                  <span class="res-skill-val">Problem Solving, Time Management, Adaptability, Team Collaboration</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Resume Projects -->
+            <div class="res-section">
+              <h2 class="res-section-heading">FEATURED PROJECTS</h2>
+              <div class="res-divider"></div>
+              <div class="res-item">
+                <div class="res-item-header">
+                  <div>
+                    <h3 class="res-item-title">Online Quiz Application</h3>
+                    <p class="res-item-tech"><strong>Tech Stack:</strong> HTML5, CSS3, JavaScript (ES6+), Array Data Structures</p>
+                  </div>
+                  <div class="res-item-meta">
+                    <span class="res-date">Dec 2025 – Aug 2026</span>
+                  </div>
+                </div>
+                <ul class="res-bullets">
+                  <li>Engineered an interactive web-based quiz application featuring 50+ multiple-choice questions across diverse academic subjects.</li>
+                  <li>Implemented real-time automatic score calculation and response evaluation algorithms based on user choices.</li>
+                  <li>Built dynamic question navigation controls, instantaneous progress tracking, and a final summary breakdown.</li>
+                  <li>Structured question datasets utilizing modular arrays and data objects for clean maintenance and scalability.</li>
+                  <li>Designed a responsive, mobile-first graphical user interface with CSS styling.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Resume Certifications -->
+            <div class="res-section">
+              <h2 class="res-section-heading">CERTIFICATIONS & TRAININGS</h2>
+              <div class="res-divider"></div>
+              <ul class="res-cert-grid">
+                <li><strong>C++ Programming</strong> — Saylor Academy (Jan 2025)</li>
+                <li><strong>Think Design Prototype: Design Thinking & Figma</strong> — Lovely Professional University (Jun–Jul 2025)</li>
+                <li><strong>Time Management</strong> — TechVeda (Oct 2025)</li>
+                <li><strong>Cyber Security</strong> — Saylor Academy (Apr 2026)</li>
+                <li><strong>Building with Artificial Intelligence</strong> — Infosys Springboard (Feb 2026)</li>
+                <li><strong>Computer Programming Certification</strong> — Neo Colab (May 2026)</li>
+                <li><strong>Programming Fundamentals using Python (Part 1 & 2)</strong> — Infosys (Aug 2026)</li>
+              </ul>
+            </div>
+
+            <!-- Resume Key Achievements -->
+            <div class="res-section">
+              <h2 class="res-section-heading">KEY ACHIEVEMENTS & ACTIVITIES</h2>
+              <div class="res-divider"></div>
+              <ul class="res-bullets">
+                <li>Solved <strong>40+ coding problems</strong> on online platforms through consistent practice in algorithmic logic.</li>
+                <li>Regular participant in university hackathons, technical workshops, and coding challenges at Lovely Professional University.</li>
+                <li>Completed and presented a high-impact <strong>Community Development Project</strong>.</li>
+                <li>Collaborated on a university technical project (ECE249) involving multidisciplinary engineering concepts.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#hero" class="brand-logo">
+            <span class="logo-bracket">&lt;</span>
+            <span class="logo-name">Anshu</span>
+            <span class="logo-dot">.</span>
+            <span class="logo-dev">dev</span>
+            <span class="logo-bracket">/&gt;</span>
+          </a>
+          <p class="footer-brand-text">
+            Computer Science Student & Aspiring Software Developer building clean, modern, and reliable digital experiences.
+          </p>
+        </div>
+
+        <div class="footer-links-group">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#story">My Tech Story</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-group">
+          <h4>Highlights</h4>
+          <ul>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#resume">Resume / CV</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-group">
+          <h4>Connect</h4>
+          <div class="footer-social-icons">
+            <a href="https://www.linkedin.com/in/anshugupta12" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/alexguptajii-dev" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="mailto:alexguptajii@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            <a href="tel:+916200309638" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-divider"></div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; <span id="current-year">2026</span> <strong>Anshu Kumar</strong>. All rights reserved. Crafted with passion & modern web technologies.
+        </p>
+        <a href="#hero" class="back-to-top-text" id="footer-back-to-top">
+          Back to Top <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back-to-Top Button -->
+  <button id="back-to-top" class="back-to-top-btn" aria-label="Back to top">
+    <svg class="progress-ring" width="48" height="48">
+      <circle class="progress-ring-circle" stroke="currentColor" stroke-width="3" fill="transparent" r="21" cx="24" cy="24"/>
+    </svg>
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- ==================== INTERACTIVE QUIZ DEMO MODAL ==================== -->
+  <div id="quiz-modal" class="modal-overlay" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-card glass-card">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <i class="fa-solid fa-laptop-code text-cyan"></i>
+          <div>
+            <h3>Online Quiz Application — Live Interactive Demo</h3>
+            <span class="modal-sub">Built with HTML, CSS & JavaScript (Arrays & Dynamic Scoring)</span>
+          </div>
+        </div>
+        <button id="close-quiz-modal-btn" class="modal-close-btn" aria-label="Close modal">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="modal-body" id="quiz-modal-body">
+        <!-- Quiz Play View -->
+        <div id="quiz-play-view">
+          <div class="quiz-status-bar">
+            <span id="quiz-question-count">Question 1 of 5</span>
+            <div class="quiz-timer"><i class="fa-regular fa-clock"></i> Live Demo Mode</div>
+          </div>
+
+          <div class="quiz-progress-track">
+            <div id="quiz-progress-fill" class="quiz-progress-fill" style="width: 20%;"></div>
+          </div>
+
+          <div class="quiz-question-box">
+            <span class="quiz-subject-tag" id="quiz-subject-badge">Computer Science</span>
+            <h4 id="quiz-question-text" class="quiz-question-text">Loading question...</h4>
+          </div>
+
+          <div id="quiz-options-container" class="quiz-options-grid">
+            <!-- Options dynamically rendered by script.js -->
+          </div>
+
+          <div class="quiz-footer-actions">
+            <button id="quiz-prev-btn" class="btn btn-ghost" disabled>
+              <i class="fa-solid fa-arrow-left"></i> Previous
+            </button>
+            <button id="quiz-next-btn" class="btn btn-primary">
+              <span>Next Question</span> <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Quiz Result View (hidden by default) -->
+        <div id="quiz-result-view" class="hidden text-center">
+          <div class="result-icon-celebrate">
+            <i class="fa-solid fa-trophy text-yellow"></i>
+          </div>
+          <h3 class="result-title">Quiz Completed!</h3>
+          <p class="result-subtitle">Here is your score calculated in real-time by the quiz engine:</p>
+          
+          <div class="score-display-circle">
+            <span id="result-score-num" class="score-big">0</span>
+            <span class="score-total">/ 5</span>
+          </div>
+
+          <p id="result-feedback-text" class="result-feedback">Excellent job! Great Computer Science fundamentals.</p>
+
+          <div class="result-actions">
+            <button id="quiz-restart-btn" class="btn btn-primary">
+              <i class="fa-solid fa-rotate-right"></i> Retake Quiz
+            </button>
+            <a href="https://github.com/alexguptajii-dev" target="_blank" rel="noopener noreferrer" class="btn btn-outline-cyan">
+              <i class="fa-brands fa-github"></i> Inspect GitHub Source
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
